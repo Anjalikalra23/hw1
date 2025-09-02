@@ -105,3 +105,4 @@ else:
     # Clear document when file is removed
     if not uploaded_file:
         document = None
+
