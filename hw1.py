@@ -39,7 +39,7 @@ else:
     client = OpenAI(api_key=openai_api_key)
 
     # Model selection
-    model_options = ["gpt-3.5-turbo", "gpt-4", "gpt-4-turbo", "gpt-4o-mini"]
+    model_options = ["gpt-3.5-turbo", "gpt-4", "gpt-5-chat-latest", "gpt-5-nano"]
     selected_model = st.selectbox("Select GPT Model:", model_options, index=1)
 
     # Let the user upload a file via ⁠ st.file_uploader ⁠.
